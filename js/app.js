@@ -5,9 +5,9 @@ let isFirstImage1 = true;
 
 myButton1.addEventListener("click", function() {
   if (isFirstImage1) {
-    myImg1.src = "../asset/heart-active.png";
+    myImg1.src = "./../asset/heart-active.png";
   } else {
-    myImg1.src = "../asset/heart.png";
+    myImg1.src = "./../asset/heart.png";
   }
   isFirstImage1 = !isFirstImage1;
 });
@@ -19,9 +19,9 @@ let isFirstImage2 = true;
 
 myButton2.addEventListener("click", function() {
   if (isFirstImage2) {
-    myImg2.src = "../asset/star-active.png";
+    myImg2.src = "./../asset/star-active.png";
   } else {
-    myImg2.src = "../asset/star.png";
+    myImg2.src = "./../asset/star.png";
   }
   isFirstImage2 = !isFirstImage2;
 });
@@ -33,9 +33,9 @@ let isFirstImage3 = true;
 
 myButton3.addEventListener("click", function() {
   if (isFirstImage3) {
-    myImg3.src = "../asset/save-active.png";
+    myImg3.src = "./../asset/save-active.png";
   } else {
-    myImg3.src = "../asset/save.png";
+    myImg3.src = "./../asset/save.png";
   }
   isFirstImage3 = !isFirstImage3;
 });
