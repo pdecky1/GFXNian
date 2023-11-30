@@ -9,8 +9,116 @@
 </head>
 <body>
 
-   <section class="w-full h-full relative ">
-        
+    <section class="w-full h-screen hidden md:flex ">
+
+        <div class="w-full overflow-hidden relative">
+
+            <img src="./asset/nian.png" alt="" class="w-fit z-0 flex items-center absolute lg:-top-32 top-0 -right-20 lg:scale-125 md:scale-150">
+
+            <div class="w-full h-screen relative">
+                <div class="w-fit flex absolute bottom-4 right-4">
+                    <img src="./asset/rec-2.png" alt="" class="">
+                    <div class=" absolute bottom-0 bg-red-700 rounded-full p-7">
+                        <img src="./asset/ticket-icon-2.png" alt="">
+                    </div>
+                    <div class="absolute bottom-5 right-10">
+                        <div class="rounded-full p-5 bg-white flex flex-row gap-x-5">
+                            <div class="flex flex-col gap-y-3 items-center">
+                                <button id="B_heart">
+                                    <img id="heart" src="./asset/heart.png" alt="" class="w-fit">
+                                </button>
+                                <h1 class="font-medium">32,190</h1>
+                            </div>
+                            <img src="./asset/dash-line.png" alt="" class="w-fit">
+                            <div class="flex flex-col gap-y-3 items-center">
+                                <button id="B_star">
+                                    <img id="star" src="./asset/star.png" alt="" class="w-fit">
+                                </button>
+                                <h1 class="font-medium">9,572</h1>
+                            </div>
+                            <img src="./asset/dash-line.png" alt="" class="w-fit">
+                            <div class="flex flex-col gap-y-3 items-center">
+                                <button id="B_save">
+                                    <img id="save" src="./asset/save.png" alt="" class="w-fit">
+                                </button>
+                                <h1 class="font-medium">21,688</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute top-10 left-10">
+                        <div class="flex flex-col justify-center gap-0">
+                            <h1 class="text-sm font-medium">Oct, 2024</h1>
+                            <h1 class="text-6xl font-medium">02</h1>
+                        </div>
+                    </div>
+                    <div class="absolute top-20 right-10">
+                        <img src="./asset/arknights-logo.png" alt="">
+                    </div>
+                </div>
+
+                <div class="w-fit flex absolute bottom-4 left-32">
+                    <img src="./asset/rec-1.png" alt="" class="">
+                    <div class=" bg-black p-3 absolute right-9 top-5 rounded-full">
+                        <img src="./asset/tag-icon.png" alt="" class="z-20">    
+                    </div>
+                    <div class="absolute w-full flex flex-col  px-10 py-10">
+                        <div class=" rounded-full p-2 bg-white border w-fit">
+                            <h1 class="font-medium">20% off</h1>
+                        </div>
+                        <div class=" rounded-full p-2 bg-white border w-fit">
+                            <h1 class="font-medium">Free Popcorn</h1>
+                        </div>
+                        <div class="pt-10 ml-3">
+                            <h1 class="font-medium text-2xl ">Promo</h1>
+                            <div class="flex flex-row">
+                                <h1 class="font-medium text-4xl">24</h1>
+                                <p class="font-medium">ready</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="absolute left-4 bottom-4 flex flex-col gap-y-1">
+                    <div class="rounded-full p-3 bg-slate-300">
+                        <img src="./asset/grid-icon.png" alt="">
+                    </div>
+                    <div class="flex flex-col items-center rounded-full p-3 bg-slate-300 gap-y-1 w-fit">
+                        <h1>Eng</h1>
+                        <img src="./asset/line-2.png" alt="">
+                        <div class="rounded-full px-1 py-2 bg-white">
+                            <img src="./asset/translate-icon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="absolute top-4 left-4">
+                    <div class="flex flex-col items-center">
+                        <img src="./asset/arknights-logo-2.png" alt="">
+                        <div class="flex flex-col pt-10">
+                            <img src="./asset/home.png" alt="" class="w-fit">
+                            <img src="./asset/location.png" alt="" class="w-fit">
+                            <img src="./asset/star-2.png" alt="" class="w-fit">
+                            <img src="./asset/bag.png" alt="" class="w-fit">
+                        </div>
+                        <div class="pt-10">
+                            <div class="bg-white rounded-full p-2  text-black z-10 w-fit flex flex-col gap-y-5 items-center relative self-end">
+                                <img src="./asset/profile.png" alt="" class="w-2/3">
+                                <img src="./asset/line.png" alt="">
+                                <img src="./asset/leader.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+    
+        </div>
+
+    </section>
+
+
+   <section class="w-full h-full relative flex md:hidden">
+
     <div class=" flex md:hidden">
         
         <img src="./asset/Nian_SM.png" alt="" class="w-full pointer-events-none z-0">
@@ -69,7 +177,7 @@
 
    </section>
 
-   <section class="w-full h-full pt-10 pb-10">
+   <section class="md:hidden flex w-full h-full pt-10 pb-10">
     
 
     <div class="relative flex flex-col md:hidden gap-y-8 items-end mx-10">
